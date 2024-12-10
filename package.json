@@ -1,0 +1,19 @@
+{
+  "name": "projeto-batepapo",
+  "version": "1.0.0",
+  "description": "Sistema de bate-papo desenvolvido com Node.js e Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["chat", "nodejs", "express", "bate-papo"],
+  "author": "Matheus Gomes da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}

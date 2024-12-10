@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bate-papo</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Bate-papo</h1>
+  </header>
+
+  <main>
+    <div id="messages">
+      <!-- Mensagens serão renderizadas -->
+    </div>
+    <form action="/chat/postarMensagem" method="POST">
+      <label for="usuario">Usuário:</label>
+      <select name="usuario" id="usuario" required>
+        <!-- Usuários renderizados pelo servidor -->
+      </select>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea name="mensagem" id="mensagem" rows="3" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <a href="/users/logout">Sair</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Sistema de Bate-papo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

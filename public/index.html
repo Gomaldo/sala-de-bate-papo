@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Sistema de Bate-papo</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema de Bate-papo <br><br></h1>
+    <p>Faça login para acessar o sistema.<br><br><br><br><br></p>
+  </header>
+
+  <main>
+    <form action="/users/login" method="POST">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+    
+      <button type="submit">Entrar</button>
+    </form>
+    
+    <p>Ainda não tem uma conta? <a href="/cadastroUsuario">Cadastre-se</a>.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Sistema de Bate-papo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
